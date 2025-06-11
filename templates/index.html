@@ -27,6 +27,18 @@
                         <a href="/templates/signup.html">Sign Up</a>
                     </div>
                 </div>
+                <div class="nav-reduce">
+                    <img src="/static/images/file_0000000078a061f685d0440664e477dc.png" alt="">
+                    <div class="nav-reduce-text">
+                        <span><a href="">Home</a></span>
+                        <span><a href="">Services</a></span>
+                        <span><a href="">Excercises</a></span>
+                        <span><a href="">About</a></span>
+                        <span><a href="">Membership</a></span>
+                        <span><a href="">Sign in</a></span>
+                        <span><a href="">Sign up</a></span>
+                    </div>
+                </div>
             </div>
     </nav>
     <div class="header">
@@ -228,9 +240,9 @@
             <h2 class="goal-header" style="padding-bottom: 3rem;">ABOUT <span>US</span></h2>
             <div class="about-container" style="background: linear-gradient(to right, black, rgb(28, 28, 28),black);">
                 <img src="/static/images/gym4.png" alt="" style="width: 25rem;">
-                <div class="about-text" style="color: white;">
-                    <h3 style="position: relative; font-size: 100px; -webkit-text-stroke: 1px rgba(255, 255, 255, 0.418); color: transparent;">WHO ARE WE <span style="color: transparent; font-size: 108px; -webkit-text-stroke: 1px red;">?</span></h3>
-                    <h3 style="position: absolute; margin-top: -5.5rem;">WHO ARE WE <span style="color: red; font-size: 58px;">?</span></h3>
+                <div class="about-text" style="color: white;" id="about-1">
+                    <h3 class="back" style="position: relative; font-size: 100px; -webkit-text-stroke: 1px rgba(255, 255, 255, 0.418); color: transparent;">WHO ARE WE <span style="color: transparent; font-size: 108px; -webkit-text-stroke: 1px red;">?</span></h3>
+                    <h2 class="front" style="position: absolute; margin-top: -5.5rem; font-size: 52px;" >WHO ARE WE <span style="color: red; font-size: 58px;">?</span></h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni provident odit, dolore eos voluptatum illo, aliquid ipsa dignissimos veritatis dolores sed nam sapiente atque voluptas quas aut. Odit laborum quos repellendus aliquid officiis quis reiciendis cumque velit sint accusantium nesciunt quas cum, minima ratione distinctio ullam porro aut ducimus. Ab!</p>
                 </div>
             </div>
@@ -241,8 +253,8 @@
         <div class="acheivements" style="padding: 8rem;">
             <div class="achieve" style="background: linear-gradient(to left, black, rgb(28, 28, 28),black);">
                 <div class="about-text" style="color: white;" id="about">
-                    <h3 style="position: relative; font-size: 95px; -webkit-text-stroke: 1px rgba(255, 255, 255, 0.418); color: transparent;">ACHIEVEMENTS<span style="color: transparent; font-size: 100px; -webkit-text-stroke: 1px red;">!</span></h3>
-                    <h3 style="position: absolute; margin-top: -5.5rem; font-size: 52px;">ACHIEVEMENTS<span style="color: red; font-size: 58px;">!</span></h3>
+                    <h3 class="back" style="position: relative; font-size: 95px; -webkit-text-stroke: 1px rgba(255, 255, 255, 0.418); color: transparent;">ACHIEVEMENTS<span style="color: transparent; font-size: 100px; -webkit-text-stroke: 1px red;">!</span></h3>
+                    <h2 class="front" style="position: absolute; margin-top: -5.5rem; font-size: 52px;">ACHIEVEMENTS<span style="color: red; font-size: 58px;">!</span></h3>
                     <p>Gym bite is anot just a world class gym, but also a social community catalyst, we have been recognized both globally and locally for our impact in individuals and the community at large, such recognition has come in form of awards which include:</p>
                     <span>
                         <ul class="achieve-list">
@@ -313,12 +325,14 @@
     <section class="week-plan">
         <div class="week-box">
             <div class="week-frame" style="color: white;">
-                <div class="frame1">
+                <div class="first-frame">
+                    <div class="frame1">
                     <h2 class="goal-header" style="padding-bottom: 2rem; font-size: 60px;">4-WEEK <span>PLAN</span></h2>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis totam fuga quae iure inventore dolores? Dolorum aliquid obcaecati accusamus cupiditate deleniti odit et. Cupiditate minima tenetur odio laboriosam cumque eius accusantium quasi odit aspernatur ratione maiores id, neque qui nobis amet aliquid porro facere pariatur quod doloremque accusamus! Nemo sit quam eius tempore mollitia inventore dignissimos, possimus odio dolor, in blanditiis ducimus, officia voluptatem sapiente! Illum nihil veritatis soluta! Quas quia error aliquid dignissimos illo unde perferendis iusto accusamus ipsa sunt nobis dolore recusandae consequuntur labore quam ea vitae, id, placeat neque nulla. Eius accusantium, natus magni sint nihil ab?</p>
                     <button>TRY OUT FOR FREE</button>
                 </div>
                 <img src="/static/images/gym11.jpg" alt="">
+                </div>
                 <div class="frame2">
                     <div class="frame-box">
                         <h2>GET INSPIRED</h2>
@@ -699,44 +713,89 @@
             <h2 class="goal-header" style="padding-bottom: 3rem; padding-left: 5rem;">CONTACT<span> US</span></h2>
             <div class="contact-item-box">
                 <div class="contact-container">
-                <div class="contact-items">
-                    <div class="content-item-box">
-                        <img src="/static/images/icons8-location-60.png" alt="">
-                        <h2>OUR LOCATION</h2>
-                        <p>Atiku Street, Rayfield, Jos, Plateau, Nigeria</p>
+                    <div class="contact-items">
+                        <div class="content-item-box">
+                            <img src="/static/images/icons8-location-60.png" alt="">
+                            <h2>OUR LOCATION</h2>
+                            <p>Atiku Street, Rayfield, Jos, Plateau, Nigeria</p>
+                        </div>
+                    </div>
+                    <div class="contact-items">
+                        <div class="content-item-box">
+                            <img src="/static/images/icons8-telephone-100.png" alt="">
+                            <h2>PHONE NUMBER</h2>
+                            <p>+234-81-4655-8248</p>
+                        </div>
+                    </div>
+                    <div class="contact-items">
+                        <div class="content-item-box">
+                            <img src="/static/images/icons8-fax-100.png" alt="">
+                            <h2>FAX</h2>
+                            <p>1-234-567-8900</p>
+                        </div>
+                    </div>
+                    <div class="contact-items">
+                        <div class="content-item-box">
+                            <img src="/static/images/icons8-email-100.png" alt="">
+                            <h2>EMAIL</h2>
+                            <p><a style="color: red;" href="">princekevinedwin63@gmail.com</a></p>
+                        </div>
                     </div>
                 </div>
-                <div class="contact-items">
-                    <div class="content-item-box">
-                        <img src="/static/images/icons8-telephone-100.png" alt="">
-                        <h2>PHONE NUMBER</h2>
-                        <p>+234-81-4655-8248</p>
-                    </div>
-                </div>
-                <div class="contact-items">
-                    <div class="content-item-box">
-                        <img src="/static/images/icons8-fax-100.png" alt="">
-                        <h2>FAX</h2>
-                        <p>1-234-567-8900</p>
-                    </div>
-                </div>
-                <div class="contact-items">
-                    <div class="content-item-box">
-                        <img src="/static/images/icons8-email-100.png" alt="">
-                        <h2>EMAIL</h2>
-                        <p><a style="color: red;" href="">princekevinedwin63@gmail.com</a></p>
-                    </div>
+                <div class="contact-form">
+                    <h2>Contact Us</h2>
+                    <form action="">
+                        <input type="text" class="apply2" placeholder="Enter your name...">
+                        <input type="email" class="apply-email" placeholder="Enter a valid email address...">
+                        <textarea name="" id="" placeholder="Reason for contact(Optional)"></textarea>
+                        <button><input type="submit"></button>
+                    </form>
                 </div>
             </div>
-            <div class="contact-form">
-                <h2>Contact Us</h2>
-                <form action="">
-                    <input type="text" class="apply2" placeholder="Enter your name...">
-                    <input type="email" class="apply-email" placeholder="Enter a valid email address...">
-                    <textarea name="" id="" placeholder="Reason for contact(Optional)"></textarea>
-                    <button><input type="submit"></button>
-                </form>
-            </div>
+            <div class="contact-2">
+                <div class="contact-2-box">
+                    <div class="contact-2-items">
+                        <span>
+                            <div class="contact-2-text">
+                                <img src="/static/images/icons8-location-60.png" alt="">
+                                <h2>OUR LOCATION</h2>
+                            </div>
+                            <p>Atiku Street, Rayfield, Jos, Plateau, Nigeria</p>
+                        </span>
+                        <span>
+                            <div class="contact-2-text">
+                                <img src="/static/images/icons8-telephone-100.png" alt="">
+                                <h2>PHONE NUMBER</h2>
+                            </div>
+                            <p>+234-81-4655-8248</p>
+                        </span>
+                        <span>
+                            <div class="contact-2-text">
+                                <img src="/static/images/icons8-fax-100.png" alt="">
+                                <h2>FAX</h2>
+                            </div>
+                            <p>1-234-567-8900</p>
+                        </span>
+                        <span>
+                            <div class="contact-2-text">
+                                <img src="/static/images/icons8-email-100.png" alt="">
+                                <h2>EMAIL</h2>
+                            </div>
+                            <p><a href="">princekevinedwin63@gmail.com</a></p>
+                        </span>
+                    </div>
+                    <div class="contact-2-form">
+                        <h2>Contact Us</h2>
+                        <form action="">
+                            <input type="text" class="name2" placeholder="Enter your name...">
+                            <input type="email" class="email2" placeholder="Enter a valid email address...">
+                            <textarea name="" id="" placeholder="Reason for contact(Optional)"></textarea>
+                            <button class="contact-2-btn">
+                                <input type="submit" value="submit">
+                            </button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
